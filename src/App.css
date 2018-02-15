@@ -1,0 +1,72 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.top-bar{
+  display: inline-flex;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color .5s;
+  
+}
+
+.App-container{
+  padding: 10px;
+  cursor: pointer;
+}
+
+.product-text{
+  margin: 20px;
+  margin-left: 100px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex
+}
+
+.top-bar:hover {
+  background-color: whitesmoke;
+}
+
+.highlight {
+  transition: background-color .5s;
+}
+
+.highlight:hover {
+  background-color: whitesmoke;
+}
+
+.avatar{    
+    /* make a square container */
+    float: left;
+    width: 70px;
+    height: 70px;
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+    /* center the image vertically and horizontally */
+    background-position: top center;
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+    
+}
