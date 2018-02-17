@@ -21,7 +21,7 @@ In the productList using an 'active' property that is set onClick, we can expand
 To Do: 
 Add Redux; Currently most of the state is being managed primaraly in the parent level components and being passed down to the children where needed. This is fine for a small app like this. However, if the app needed to scale then adding Redux would be a sound next step
 
-I am fairly novice with testing librarys such as Jest and Enzyme, I will need to further learn them as they are looking to become fairly standardized when using React. As such I have not included the test files in this app. 
+I am fairly novice with testing librarys such as Jest and Enzyme, I will need to further learn them as they are looking to become fairly standardized when using React. As such I have not included the test files in this app. Using PropTypes for typechecking the components  
 
 
 ![Optional Text](https://github.com/BenBab/React-API-productList/blob/master/public/image.PNG)
